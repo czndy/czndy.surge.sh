@@ -1,0 +1,130 @@
+/* cor da pagina principal #4f55be;*/
+
+html {
+    height: 100vh;
+}
+
+body {
+    min-height: 100vh;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+
+#sidebar {
+    color: #fff;
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    
+}
+
+
+#sidebar ul.components {
+    padding: 1vh 0vw;
+}
+
+#sidebar ul li a {
+    padding:1.5vh 0.5vw ;
+    font-size: 1.1em;
+    display: block;
+}
+#sidebar ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+}
+ul ul a {
+    font-size: 0.9em !important;
+    background: #6d7fcc;
+}
+
+.dropdown-toggle{
+    background: #6d7fcc;
+}
+
+.active{
+    background: #6d7fcc;
+}
+
+.lateral{
+    background: #7386D5;
+    height:100vh;
+    width:15vw;
+    padding-right:0px;
+}
+
+#projetos{
+    padding-left:1vw;
+}
+
+#projetos{
+    background:#ffc56e;
+}
+
+.navbar-inverse{
+    background:#ffc56e; 
+}
+
+.navbar-brand{
+    color:#777777;
+    font-weight:bold;
+    font-size:2em;
+    position: relative;
+    top:-2vh;
+}
+
+.cabecalho{
+    border-left: 1px white solid;
+    border-right: 1px white solid;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.cabecalho a{
+    color:#4f55be !important;
+}
+
+.tituloBotoes{
+	display:block; 
+	text-align: center;
+	font-size: 3vh; 
+	margin-top: 3vh;
+}
+
+.botaoRedondo{
+    display: inline-block;
+    height: 4vh!important;
+    width: 4vh;
+    border-radius: 50%;
+    border: 0.4vh solid white;
+    margin: 2vh;
+    cursor: pointer;
+}
+
+.sinais{
+	font-size:3vh;
+	margin-top:-0.5vh;
+	cursor: pointer;
+}
+
+#txtQtHomens{
+    font-size:3vh;
+}
+
+#txtQtMulheres{
+    font-size:3vh;
+}
+
+#txtQtCriancas{
+	font-size:3vh;
+}
+
+@media only screen and (min-width: 999px) {
+    .celular{
+    	position: relative; top:-10vh;
+    }
+}

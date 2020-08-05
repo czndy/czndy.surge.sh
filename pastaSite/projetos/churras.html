@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html style="overflow-y: hidden;">
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link type="text/css" rel="stylesheet" href="../css/style.css" />	
+	<script type="text/javascript" src="../js/form.js"></script>
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/styles.css">
+	<link rel="stylesheet" href="../css/red-white.css">
+
+	<title>Churras</title>
+</head>
+<body>
+	<nav class="navbar-inverse">
+		<div class="container-fluid">
+			<ul class="nav navbar-nav">
+				<li class="navbar-brand"><a href="../index.html" style="color:#777777">Czndy.</a></li>
+				<li class="navbar-brand cabecalho"><a href="projetos.html">Projetos</a></li>
+				<li class="navbar-brand cabecalho"><a href="../enigmas/enigma.html">Enigma</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<main>
+		<div id="main">
+			<div id="content" style="position: relative; bottom:7vh">
+				<div class="row">
+					<div class="col-md-4">
+						<label class="celular" style="font-size: 3.5vh; color: #FAFAFA;">Bora fazer um churras?</label>
+					</div>
+					<div class="col-md-4">
+						<div class="row"><p style="text-align:center; font-size: 13vh; padding-bottom: 0px;" id="txtResultChurras">0</p></div>
+						<div><p style="text-align:center; font-size: 3.5vh; position: relative;margin-top: -2.5vh">KG de Carne</p></div>
+					</div>
+					<div class="col-md-4">
+						
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-3">
+						
+					</div>
+
+					<div class="col-md-2">
+						<div class="row"><label class="tituloBotoes" for="txtQtHomens">Homens:</label></div>
+						<div class="row"><a class="subtrai subtrai1 botaoRedondo"><p class="sinais">-</p></a><span id="txtQtHomens">0</span><a class="soma soma1 botaoRedondo"><p class="sinais">+</p></a></div>
+					</div>
+					<div class="col-md-2">
+						<div class="row"><label class="tituloBotoes" for="txtQtMulheres">Mulheres:</label></div>
+						<div class="row"><a class="subtrai subtrai2 botaoRedondo"><p class="sinais">-</p></a><span id="txtQtMulheres">0</span><a class="soma soma2 botaoRedondo"><p class="sinais">+</p></a></div>
+					</div>
+					<div class="col-md-2">
+						<div class="row"><label class="tituloBotoes" for="txtQtCriancas">Criancas:</label></div>
+						<div class="row"><a class="subtrai subtrai3 botaoRedondo"><p class="sinais">-</p></a><span id="txtQtCriancas">0</span><a class="soma soma3 botaoRedondo"><p class="sinais">+</p></a></div>
+					</div>
+
+					<div class="col-md-3">
+						
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-4">
+						
+					</div>
+					<div class="col-md-4">
+						<button class="form-control btn btn-primary" style="margin-top: 3vh" id="btnCalcular" onclick="calculaChurras();">Calcular</button>
+					</div>
+					<div class="col-md-4">
+						
+					</div>
+				</div>
+		    </div>
+	    </div>
+    </main>
+
+</body>
+</html>

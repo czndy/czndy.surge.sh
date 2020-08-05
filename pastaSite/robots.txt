@@ -1,0 +1,9 @@
+# Parabéns, conseguiu passar pelo meu teste básico.
+# Por que nao me escreve para relatar seu sucesso?
+#
+# No entanto, não ache que acabou. Uma jornada mais desafiadora
+# se aproxima. Está preparado?
+
+User-agent: *
+Disallow: /enigma/
+Disallow: /jornada/
